@@ -1,12 +1,10 @@
 {
-	"name": "SharedData",
+	"name": "foundry-shared-data",
 	"title": "Shared Data",
+	"author" : "Austin",
 	"description": "Sharing data between worlds",
 	"version": "1.0.0",
-	"compatibleCoreVersion": "0.7.9",
 	"minimumCoreVersion": "0.7.4",
-	"minimumSystemVersion": "1.2.3",
-	"systems": ["dnd5e"],
 	"packs": [{
 			"name": "items",
 			"label": "Custom Items",
@@ -32,15 +30,15 @@
 			"entity": "Item"
 		},
 		{
-			"name": "class_features",
+			"name": "class-features",
 			"label": "Custom Class Features",
-			"path": "./packs/class_features.db",
+			"path": "./packs/class-features.db",
 			"entity": "Item"
 		},
 		{
-			"name": "racial_features",
+			"name": "racial-features",
 			"label": "Custom Race Features",
-			"path": "./packs/racial_features.db",
+			"path": "./packs/racial-features.db",
 			"entity": "Item"
 		},
 		{
@@ -50,7 +48,7 @@
 			"entity": "Item"
 		}
 	],
-	"url": "",
-    "manifest": "",
-    "download": ""
+	"url": "https://github.com/ARTINKEL/Foundry-Shared-Data",
+    "manifest": "https://raw.githubusercontent.com/ARTINKEL/Foundry-Shared-Data/master/module.json",
+    "download": "https://github.com/ARTINKEL/Foundry-Shared-Data/releases/download/0.0.1/Foundry-Shared-Data.zip"
 }
