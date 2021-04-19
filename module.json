@@ -1,0 +1,56 @@
+{
+	"name": "SharedData",
+	"title": "Shared Data",
+	"description": "Sharing data between worlds",
+	"version": "1.0.0",
+	"compatibleCoreVersion": "0.7.9",
+	"minimumCoreVersion": "0.7.4",
+	"minimumSystemVersion": "1.2.3",
+	"systems": ["dnd5e"],
+	"packs": [{
+			"name": "items",
+			"label": "Custom Items",
+			"path": "./packs/items.db",
+			"entity": "Item"
+		},
+		{
+			"name": "monsters",
+			"label": "Custom Monsters",
+			"path": "./packs/monsters.db",
+			"entity": "Actor"
+		},
+		{
+			"name": "scenes",
+			"label": "Custom Scenes",
+			"path": "./packs/scenes.db",
+			"entity": "Scene"
+		},
+		{
+			"name": "classes",
+			"label": "Custom Classes",
+			"path": "./packs/classes.db",
+			"entity": "Item"
+		},
+		{
+			"name": "class_features",
+			"label": "Custom Class Features",
+			"path": "./packs/class_features.db",
+			"entity": "Item"
+		},
+		{
+			"name": "racial_features",
+			"label": "Custom Race Features",
+			"path": "./packs/racial_features.db",
+			"entity": "Item"
+		},
+		{
+			"name": "spells",
+			"label": "Custom Spells",
+			"path": "./packs/spells.db",
+			"entity": "Item"
+		}
+	],
+	"url": "",
+    "manifest": "",
+    "download": ""
+}
